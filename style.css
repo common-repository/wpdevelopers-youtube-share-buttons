@@ -1,0 +1,100 @@
+/*
+Styles for WPDev YouTube Share Plugin by Tyler Johnson
+*/
+
+div.wpdev-youtube-container {
+	position: relative;
+	max-width: 100%;
+	height: auto;
+}
+
+div.wpdev-youtube-container iframe {
+	width: 100% !important;
+	height: 394px !important;
+}
+
+div.wpdev-youtube-container .wpdev-rollover {
+	opacity: 0;
+	display: inline-block;
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+}
+
+div.wpdev-youtube-container:hover .wpdev-rollover {
+	opacity: 1;
+}
+
+.wpdev-rollover {
+	z-index: 200;
+	position: absolute;
+	left: -3px;
+	cursor: pointer;
+}
+
+.wpdev-facebook {
+	top: 50%;
+}
+
+.wpdev-twitter {
+	top: 65%;
+}
+
+.wpdev-rollover a {
+    color: #fff !important;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0px 6px 6px 0px;
+    box-shadow: 0px 0px 6px #000;
+}
+
+.wpdev-rollover a:hover {
+	color: #fff !important;
+}
+
+.wpdev-facebook a {
+    background: #6086d5; /* Old browsers */
+    background: -moz-linear-gradient(top,  #6086d5 0%, #2c4988 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6086d5), color-stop(100%,#2c4988)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #6086d5 0%,#2c4988 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #6086d5 0%,#2c4988 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #6086d5 0%,#2c4988 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #6086d5 0%,#2c4988 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6086d5', endColorstr='#2c4988',GradientType=0 ); /* IE6-9 */
+}
+
+.wpdev-facebook a:hover {
+    background: #2c4988; /* Old browsers */
+    background: -moz-linear-gradient(top,  #2c4988 0%, #6086d5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2c4988), color-stop(100%,#6086d5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #2c4988 0%,#6086d5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #2c4988 0%,#6086d5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #2c4988 0%,#6086d5 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #2c4988 0%,#6086d5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c4988', endColorstr='#6086d5',GradientType=0 ); /* IE6-9 */
+}
+
+.wpdev-twitter a {
+    background: #2faffa; /* Old browsers */
+    background: -moz-linear-gradient(top,  #2faffa 0%, #2994da 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2faffa), color-stop(100%,#2994da)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #2faffa 0%,#2994da 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #2faffa 0%,#2994da 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #2faffa 0%,#2994da 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #2faffa 0%,#2994da 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2faffa', endColorstr='#2994da',GradientType=0 ); /* IE6-9 */
+}
+
+.wpdev-twitter a:hover {
+    background: #2994da; /* Old browsers */
+    background: -moz-linear-gradient(top,  #2994da 0%, #2faffa 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2994da), color-stop(100%,#2faffa)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #2994da 0%,#2faffa 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #2994da 0%,#2faffa 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #2994da 0%,#2faffa 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #2994da 0%,#2faffa 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2994da', endColorstr='#2faffa',GradientType=0 ); /* IE6-9 */
+}
